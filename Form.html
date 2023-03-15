@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FORM</title>
+</head>
+<body bgcolor="LavenderBlush">
+    <form>
+        <fieldset>
+            <legend><h1>Personal details</h1></legend>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Name"><br><br>
+
+            <label for="Phone number">Phone No.:</label>
+            <input type="number" placeholder="Phone Number"><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" placeholder="Email"><br><br>
+
+            <label for="name">Father's Name:</label>
+            <input type="name" placeholder="Father's name"><br><br>
+            <label for="name">Mother's Name:</label>
+            <input type="name" placeholder="Mother's name"><br><br>
+
+            <label for="date">DOB:</label>
+            <input type="date" id="dob"><br><br>
+
+            <!-- Radio shown here -->
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="Male">Male
+            <input type="radio" id="gender" name="gender" value="Female">Female
+            <input type="radio" id="gender" name="gender" value="Others">Others<br><br>
+            
+            <label for="address">Home Address:</label>
+            <input type="text" id="address" placeholder="Address"><br><br>
+            
+            <label for="number">Zip Code:</label>
+            <input type="number" placeholder="code"><br><br>
+            <!-- checkbox shown here -->
+          
+          <label for="name">Guardian Name:</label>
+          <input type="name" placeholder="Guardian name"><br><br>
+          <label for="number">Guardian No.:</label>
+          <input type="number" placeholder="Phone number"><br><br>
+
+          <label>Employment status:</label>
+          <input type="checkbox">Employed
+          <input type="checkbox">unemployed
+          <input type="checkbox">Selfemployed<br><br>
+        
+          <label>Country Name:</label>
+          <input type="text" list="country">
+          <datalist id="country">
+              <option value="INDIA">   
+              <option value="USA"> 
+              <option value="FRANCE">
+              <option value="CANADA"> 
+              <option value="FINLAND">   
+          </datalist>  <br><br>
+          
+            <!-- drop down menu here -->  
+            <legend>Category</legend>
+            <select name="Drop" autofocus="true">
+            <option disabled selected>Select</option>
+            <option value="General">General</option>
+            <option value="OBC">OBC</option>
+            <option value="SC/ST">SC/ST</option>
+            <option value="Minority">Minority</option>
+            <br><br>
+            
+           <input type="button" value="Submit" style>
+        </fieldset>
+    </form>
+</body>
+</html>

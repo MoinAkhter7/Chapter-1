@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>parent-child</title>
+
+</head>
+<body>
+<!--parent tag and child tag concept->
+<main>
+<h1>INTRODUCTION TO fsd</h1>
+<p>Lorem ipsum dolor<p>
+</main>
+
+<div>
+  <h1>A to Z</h>
+  <ul>
+		<li>A</li>
+		<li>B</li>
+		<li>C</li>
+	</ul>
+	<h1>0 to 10</h1>
+   <ul>
+	<li>0</li>
+	<li>2</li>
+	<li>2</li>
+   </ul>
+   
+</body>
+</html>
+
+

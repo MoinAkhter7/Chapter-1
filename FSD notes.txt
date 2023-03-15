@@ -1,0 +1,184 @@
+1st class 9 march23
+->It was about parent-child code.
+main tag (just for us to know ki humey part krna hai)
+main can contain so many division but div cant do
+<div>=restricted for 1 unit
+1 pixel=0.3mm or 0.264
+margin=chod deyta thaa (let it be empty),(not ocupied)
+padding=not ocupied,(shoe exmaple) always apply padding first as compare to margin, bcz it can effect stylying path.
+
+span tag= used in css for styling
+borders
+padding
+name
+division
+margin
+main
+
+
+2nd class 10 march23
+->It was about tables.
+creating tables, table row, table data. table heading,border,padding,margin
+tags
+table heading ,table row ,table coloum,row span, column span (same category ko ek hi cateygory mei rakhna taki copies naa bneey)
+-3 main tags->tr th td 
+-border for border (not already given)
+-rowspan= 2 rows ko merge or editing then we use them
+call group(tag) under body tag
+1st 2 colum par same editing krskey
+-colspan(same as rowspan )
+
+1)style mei tag laptey hai ?
+nahi attributes and properties lgtey hai style mei and body keey under legyga tags
+
+codes
+used for assigning color for diffrent names
+table,td,tr{
+border:3px solid;
+border-collapse:collapse;
+text
+
+}
+
+td:nth-child(odd or 3){
+background-color: red;	
+}
+
+td:nth-child(even or 2){
+background-color: red;	
+}
+#colg{
+	color: blue;
+	background-color: aqua;
+}
+#colg2{
+	color: blue;
+	background-color: bisque;
+}
+
+3rd class 13 march 23
+->Form
+field set, radio, dropdown, checkbox, dob, name ,datalist
+W3school.com
+
+4th class 14 march 23
+CSS 
+h1,h2,h3
+{
+color read;
+}
+
+div(parent tag) h1(child tag)
+
+div h1{
+color red
+}
+ by this we can call any child of the parent class whose name is 'h1' and make it of red color.(here div is parent and h1 is child)
+
+<body>
+<h1>D</h>
+<div>
+<h1>1</h>
+<section>
+<h2>2</h2>
+<h1>3</h1>
+</section>
+<h1>4</h1>
+<h3>5</h3>
+<div>
+<h1>
+</body>
+
+<style>
+div h1{
+color:red;
+}
+</style>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+body<h1>A</h1>
+<div class="a">
+<h1>B</h1>
+<div class="b">
+<h1>C</h1>
+</div>
+<div class="c">
+<h1>D</h1>
+<h1>E</h1>
+<div class="b">
+<h1>f</h1>
+</div>
+</div>
+<h1>G</h1>
+</div>
+</div>
+<?body>
+<style>
+.a .b
+{
+color:yellow;
+}
+</style>
+.a .b here a is the parent class and b is the child class. Here editing will be done only on the class which is present right side ie .b
+
+selecetors
+div>a
+s
+here div is P and a is child.
+> it tells us that here we only have to focus on child and not on grandchild.here child is a.
+
+look at selection4.html
+div>p
+here it indicate to all div p it doesnt matter which one.
+
+div~h1
+it indicate child other then div's ie siblings without child...look for selector5.html program.
+
+
+Assignment1
+create your resume (tuesday)
+Assignment2
+create a time table for a student for a purpose of self study whcih should include
+7 subjects 2 breaks from to monday to sunday applying all the required tags attributes 
+and properties of html and css(wednesday)
+Assignment3
+create form (like website)
+
+5th class 15 march 23
+git(it is a technology)
+
+git config --global user.name "MoinAkhter7"    (press enter after this)
+git config --global user.email."msmoinkhan7@gmail.com" (press enter after this)
+Now you have link vs code with github
+
+push-upload
+pull-download
+
+ctrl+L(for clearing the data)
+
+1st write
+git init
+git status(check repostary if uploaded or not) (press enter after this)
+
+start from here
+git add basic.html(file name)    (press enter after this)
+git add .(shortcut for adding files) (press enter after this)
+->git commit -m "Chapter 1 pushed"  (press enter after this)
+is makes folder ready to be pushed.
+it gives unique id to folder and files.
+to give description about the folder.
+
+git remote add origin https://github.com/MoinAkhter7/Chapter-1.git  (press enter after this)[here we can use any word ie origin,abc,etc]
+git remote add abc (press enter after this)[will tell what is the name of ur files]
+
+git push origin or abc master (press enter after this)[for pushing iteams]
+now refresh the browser it will show that the files are pushed.
+
